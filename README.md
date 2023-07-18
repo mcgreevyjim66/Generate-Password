@@ -18,7 +18,7 @@ There is source code located in the Horiseon-Refactor folder, as well as in the 
 
 ## Mock-up
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/genratepassword.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Assets/images/genratepassword.png)
 
 
 ## Credits
