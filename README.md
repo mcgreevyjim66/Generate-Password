@@ -17,7 +17,7 @@ To use the Horiseon Marketng Solution website, please vist <https://mcgreevyjim6
 ## Source
 
 My repo, is located at <https://github.com/mcgreevyjim66/Generate-Password>.
-There is source code located in the Horiseon-Refactor folder, as well as in the ./assets/images and ./assets/css folders.
+There is source code located in the Generate-Password folder, as well as in the ./assets/images, ./assets/css and ./assets/scripts folders.
 
 ## Mock-up
 
