@@ -12,7 +12,7 @@ This app will run in the browser and will feature dynamically updated HTML and C
 
 ## Usage
 
-To use the Horiseon Marketng Solution website, please vist <https://mcgreevyjim66.github.io/Generate-Password/>
+To use the Generate Password website, please vist <https://mcgreevyjim66.github.io/Generate-Password/>
 
 ## Source
 
