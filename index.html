@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="stylesheet" href="./assets2/css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -27,9 +27,55 @@
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
+        <div class="card-footer">
+          <button id="generate-dialog" class="btn">Generate Password with Dialog</button>
+        </div>
+
+
+
+        <!-- A modal dialog containing a form -->
+        <div>
+          <!-- <button id="openDialogBtn">Open Password Criteria</button> -->
+        
+          <dialog id="passwordCriteriaDialog">
+            <form id="generateForm">
+
+              <label for="passwordLength">Enter password length (between 8 and 128):</label>
+              <input type="number" id="passwordLength" min="8" max="128" required>
+              <br> </br>
+              <div class = "checkbox">
+                <label for="passwordCriteria">Select at least one of the following password critiria:</label>
+                <br></br>
+                <label>
+                  <input type="checkbox" name="criteria" value="uppercase">
+                  Uppercase letters
+                </label><br>
+                <label>
+                  <input type="checkbox" name="criteria" value="lowercase">
+                  Lowercase letters
+                </label><br>
+                <label>
+                  <input type="checkbox" name="criteria" value="numbers">
+                  Numbers
+                </label><br>
+                <label>
+                  <input type="checkbox" name="criteria" value="special">
+                  Special characters
+                </label><br>
+                </div>
+                <br></br>
+                <button type="button" id="applyCriteriaBtn">Apply</button>
+                <button type="button" id="closeDialogBtn">Close</button>
+            </form>
+          </dialog>
+         </div>
+
+        
+
+
 
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="./assets2/scripts/script.js"></script>
   </body>
 </html>
